@@ -1,0 +1,30 @@
+<div layout="column" style="height: 100%;text-align: center;">
+  <div flex="25">
+
+  </div>
+
+  <div flex="" class="RD_btn_div">
+    <md-button class="md-fab RD_btn_power" ng-click="powerON()" aria-label="Eat cake">
+      <md-icon md-svg-src="RD/assets/img/icons/flash.svg"></md-icon>
+    </md-button>
+
+    <md-button class="md-fab md-primary RD_btn_engine" ng-mousedown="engine(true)" ng-mouseup="engine(false)" aria-label="Use Android">
+      <md-icon md-svg-src="RD/assets/img/icons/power.svg"></md-icon>
+    </md-button>
+
+    <md-button class="md-fab RD_btn_powerOff" ng-click="powerOFF()" aria-label="Eat cake">
+      <md-icon md-svg-src="RD/assets/img/icons/flash_off.svg"></md-icon>
+    </md-button>
+  </div>
+
+  <div flex="" layout="column" layout-align="center">
+    <md-switch lass="md-primary" ng-model="tled" aria-label="Switch 6" ng-change="led(tled)">
+      <md-icon md-svg-src="RD/assets/img/icons/brightness.svg"></md-icon> LED
+    </md-switch>
+<!--
+    <md-switch lass="md-primary" ng-model="tusb" aria-label="Switch 6" ng-change="usb(tusb)">
+      <md-icon md-svg-src="RD/assets/img/icons/charging.svg"></md-icon> USB
+    </md-switch>
+-->
+  </div>
+</div>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" ng-app="RDapp" ng-controller="RDapp">
+  <head>
+    <meta charset="utf-8">
+    <title>RD-BI project</title>
+    <link rel="stylesheet" href="RD/assets/lib/angular-material/angular-material.min.css">
+    <link rel="stylesheet" href="RD/assets/css/app.css">
+
+    <script src="../core/jquery/jquery-2.1.0.min.js"></script>
+  	<script src="../core/jquery/jquery.nouislider.min.js"></script>
+  	<script src="../core/jquery/jquery.knob.js"></script>
+  	<script src="../core/jquery/insQ.min.js"></script>
+  	<script src="../settings.js"></script>
+  	<script src="../core/bridge.js"></script>
+  	<script src="core/framework.js"></script>
+  </head>
+  <body layout="column">
+
+    <md-toolbar ng-if="isLogin" class="md-hue-2" ng-include="tpl('toolbar')"></md-toolbar>
+    <md-content flex layout-padding ng-view><md-content>
+
+    <script src="RD/assets/lib/angular/angular.min.js" charset="utf-8"></script>
+    <script src="RD/assets/lib/angular-animate/angular-animate.min.js" charset="utf-8"></script>
+    <script src="RD/assets/lib/angular-aria/angular-aria.min.js" charset="utf-8"></script>
+    <script src="RD/assets/lib/angular-material/angular-material.min.js" charset="utf-8"></script>
+    <script src="RD/assets/lib/angular-messages/angular-messages.min.js" charset="utf-8"></script>
+    <script src="RD/assets/lib/angular-route/angular-route.min.js" charset="utf-8"></script>
+
+    <script src="RD/assets/js/app.js" charset="utf-8"></script>
+
+
+
+
+    <script>
+  		var path = 'C:/Users/raafe/Desktop/moto';
+  		var chokidar = require('chokidar');
+  		var watcher = chokidar.watch('.', {
+  			ignored: /[\/\\]\./
+  		});
+  		watcher.on('all', function(event, path) {
+  			if (location && event == "change")
+  				location.reload();
+  		});
+  	</script>
+  </body>
+</html>

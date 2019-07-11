@@ -1,0 +1,49 @@
+body{
+  background: #282240;
+  color: #fff;
+}
+
+.RD-hue-1 {
+    background: #383152 !important;
+}
+
+.RD-s-d{
+  text-align: center;
+}
+
+.RD-s-is{
+  font-size: 130px;
+  height: auto;
+  width: auto;
+  color: #69657a;
+}
+
+.RD-l-ic{
+  color: #fff;
+}
+
+.RD-l-d md-input-container:not(.md-input-has-value) input:not(:focus){
+  color: #fff;
+}
+
+.RD-l-d .md-input {
+    color: #fff;
+    border-color: #fff;
+}
+
+.RD-l-d md-input-container:not(.md-input-invalid).md-input-has-value label,
+.RD-l-d md-input-container label {
+    color: rgb(140,158,255);
+}
+
+.RD-m-d md-icon {
+  font-size: 64px;
+  width:64px;
+  height: 64px
+}
+
+.RD-m-d .md-button.md-fab {
+  line-height: 150px;
+  width: 150px;
+  height: 150px;
+}

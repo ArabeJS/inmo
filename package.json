@@ -1,0 +1,27 @@
+{
+  "//Basic info (you can change it)": "",
+  "name": "Involt",
+  "description": "Arduino to HTML prototyping framework for designers.",
+  "author": "Involt, Ernest Warzocha",
+  "version": "1.1.0",
+  "//Required": "",
+  "main": "www/index.html",
+  "icons": {
+    "16": "www/img/icons/desktop/icon16.png",
+    "48": "www/img/icons/desktop/icon48.png",
+    "128": "www/img/icons/desktop/icon128.png"
+  },
+  "window": {
+    "/*": "fullscreen: true, */",
+    "width": 400,
+    "height": 600
+  },
+  "devDependencies": {
+    "nw-dev": "^3.0.1"
+  },
+  "manifest_version": 2,
+  "dependencies": {
+    "chokidar": "^3.0.1",
+    "cordova-android": "^7.1.4"
+  }
+}

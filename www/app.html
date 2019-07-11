@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Involt</title>
+	<!--<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height" />-->
+	<script src="core/jquery/jquery-2.1.0.min.js"></script>
+	<script src="core/jquery/jquery.nouislider.min.js"></script>
+	<script src="core/jquery/jquery.knob.js"></script>
+	<script src="core/jquery/insQ.min.js"></script>
+	<script src="settings.js"></script>
+	<script src="core/bridge.js"></script>
+	<script src="core/framework.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/framework.css">
+	<link rel="stylesheet" type="text/css" href="css/material-icons.css">
+	<link rel="stylesheet" type="text/css" href="css/angular-material.min.css">
+	<link rel="stylesheet" type="text/css" href="css/app.css">
+</head>
+
+<body layout="row">
+	<div layout="column" flex>
+		<md-toolbar class="RD-hue-1 md-whiteframe-4dp"
+								ng-include="tpl('toolbar')"
+								ng-show="isMenu"></md-toolbar>
+		<div layout="row" flex ng-view></div>
+	</div>
+
+	<script src="core/RD-libs.js" charset="utf-8"></script>
+	<script src="core/app.js" charset="utf-8"></script>
+	
+	<script src="../node_modules/nw-dev/lib/dev.js"></script>
+</body>
+
+</html>

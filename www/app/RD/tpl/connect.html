@@ -1,0 +1,16 @@
+<div layout="column" layout-align="center center" style="height:100%;">
+  <div layout-align="center center" flex>
+    <br>
+    <br>
+    <br>
+    <br>
+    <md-progress-circular ng-if="!rcnt" md-mode="indeterminate" flex=""></md-progress-circular>
+  </div>
+
+  <h4 flex>{{msg}}</h4>
+
+  <md-button ng-if="rcnt" class="md-raised md-primary" ng-click="recont()">
+    <md-icon md-svg-icon="RD/assets/img/icons/moto.svg"></md-icon>
+    Re-Connect
+  </md-button>
+</div>

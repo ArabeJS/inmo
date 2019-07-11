@@ -1,0 +1,24 @@
+<div layout="column" style="height: 100%;text-align: center;">
+  <div flex="" class="RD_txt-clr">
+    <md-icon class="md-ico-50" md-svg-icon="RD/assets/img/icons/security.svg"></md-icon>
+    <p>
+      <hr/>
+      <md-icon md-svg-icon="RD/assets/img/icons/msg.svg"></md-icon>
+      {{msg}}
+      <hr/>
+    </p>
+  </div>
+  <div flex="">
+    <div class="input-group">
+      <span class="input-group-addon">
+        <md-icon md-svg-icon="RD/assets/img/icons/lock.svg"></md-icon>
+      </span>
+      <input id="password" ng-model="passInp" type="password" class="form-control" name="password" placeholder="Password">
+    </div>
+    <md-button class="md-raised md-primary" ng-click="btnLogin()">
+      <md-icon md-svg-icon="RD/assets/img/icons/moto.svg"></md-icon>
+      Login
+    </md-button>
+    <span></span>
+  </div>
+</div>

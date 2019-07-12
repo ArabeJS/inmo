@@ -32,7 +32,7 @@
     <preference name="android-installLocation"    value="auto" />
     <preference name="webviewbounce"              value="true" />
 
-    <preference name="android-targetSdkVersion" value="28" />
+    <preference name="android-targetSdkVersion" value="27" />
 </platform>
 
     <!-- Plugins -->
@@ -41,7 +41,7 @@
     <plugin name="cordova-plugin-chrome-apps-bluetoothsocket" source="npm"/>
     <plugin name="cordova-plugin-ble-central" source="npm" />
 <plugin spec="https://github.com/dpa99c/cordova-android-support-gradle-release" source="git" >
-<variable name="ANDROID_SUPPORT_VERSION" value="28.0.0"/>
+<variable name="ANDROID_SUPPORT_VERSION" value="27.0.0"/>
 </plugin>
     <!-- Icons:-->
     <platform name="android">

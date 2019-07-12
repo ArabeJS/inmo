@@ -15,10 +15,10 @@
         id        = "io.github.involt"
         version   = "1.1.0">
 
-    <name>Involt for Mobile</name>
+    <name>Raafet IM</name>
 
     <description>
-        Mobile version of Involt framework. Use with Bluetooth 2.0 and Android.
+        Mobile version of Raafet-Dev framework. Use with Bluetooth 2.0 and Android.
     </description>
 
     <author href="http://involt.github.io" email="ernestwarzocha@gmail.com">
